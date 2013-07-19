@@ -1,0 +1,94 @@
+<style>
+  .proofcontaier{
+    margin: 0 auto;
+    width:630px;
+    margin-top: 80px;
+  }
+  #categories li{
+    float: left;
+    font-size: 12px;
+    height: 150px;
+    margin: 0 15px 15px 0;
+    position: relative;
+    width: 200px; 
+  }
+  li a{
+    color: #112233;
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  li h2 {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    font-size: 18px;
+    height: 38px;
+    margin: 0;
+    padding: 5px 15px 10px;
+    position: absolute;
+    width: 170px;
+  }  
+  #categories li > a h2 {
+    color: #FFFFFF;
+  }
+  #categories li > a h2:hover {
+    color: #44BBFF;
+  }
+  #categories .cate{
+    background: url("/images/headche.jpg") no-repeat scroll 0px 0px transparent;
+  }
+</style>
+<div class="proofcontaier container">
+  <div class="row">
+    <div class="span4 offset4">
+      <form id="custom-search-form" class="form-search form-horizontal">
+        <div class="input-append span12">
+          <input type="text" class="search-query" placeholder="Search">
+          <button type="submit" class="btn"><i class="icon-search"></i></button>
+        </div>
+      </form>
+      <ul id="categories">
+        <li class="cate  en">
+          <a href="/categories/activism">
+            <h2>我的清單</h2>
+          </a>
+        </li>
+        <li class="cate  en">
+          <a href="/categories/animation">
+            <h2>分類1</h2>
+          </a>
+        </li>
+        <li class="cate en">
+          <a href="/categories/art">
+            <h2>分類2</h2>
+          </a>
+        </li>
+        <li class="cate  en">
+          <a href="/categories/branded">
+            <h2>分類3</h2>
+          </a>
+        </li>
+        <li class="cate  en">
+          <a href="/categories/comedy">
+            <h2>分類4</h2>
+          </a>
+        </li>
+        <li class="cate en">
+          <a href="/categories/education">
+            <h2>分類5</h2>
+          </a>
+        </li>
+        <li class="cate en">
+          <a href="/categories/everyday">
+            <h2>分類6</h2>
+          </a>
+        </li>
+        <li class="cate en">
+          <a href="/categories/experimental">
+            <h2>分類7</h2>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
